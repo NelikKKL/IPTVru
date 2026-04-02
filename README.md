@@ -52,7 +52,7 @@ https://smolnp.github.io/IPTVru//IPTVххх.m3u
 ### Основной
 
 ```
-https://smolnp.github.io/IPTVru//IPTVru.m3u
+https://raw.githubusercontent.com/NelikKKL/IPTVru/refs/heads/gh-pages/IPTVru.m3u
 ```
 
 - Для всех плееров: `https://raw.githubusercontent.com/NelikKKL/IPTVru/refs/heads/gh-pages/IPTVru.m3u`.
