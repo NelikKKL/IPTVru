@@ -55,7 +55,7 @@ https://smolnp.github.io/IPTVru//IPTVххх.m3u
 https://smolnp.github.io/IPTVru//IPTVru.m3u
 ```
 
-- Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u`.
+- Для всех плееров: `https://raw.githubusercontent.com/NelikKKL/IPTVru/refs/heads/gh-pages/IPTVru.m3u`.
 
 Плейлист формируется после добавления и проверки ссылок на потоки из тестового плейлиста. Используется полный EPG файл (значки, программа и описание). Пулреквесты не принимаются.
 
