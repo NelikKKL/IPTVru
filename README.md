@@ -2,21 +2,6 @@
 
 Проект содержит ссылки из плейлистов, которые были найдены в открытых источниках. Плейлисты составляются преимущественно для граждан РФ и Беларуси.
 
-## Поддерживаемые плееры
-
-Плейлисты проверены на следующих плеерах:
-- **VLC** (все платформы)
-- **SMPlayer / Celluloid** (Windows, Linux)
-- **TELEVIZO** (Android) — рекомендуем!
-- **Hypnotix** (Linux)
-
-## Как подключить плейлист (на примере VLC)
-
-1. Скопируйте ссылку на нужный плейлист из списка ниже.
-2. В плеере VLC нажмите «Медиа» → «Открыть URL…» (или клавиши `Ctrl+N`).
-3. Вставьте скопированную ссылку в строку.
-4. Нажмите «Воспроизвести».
-
 В других плеерах действия похожи: нужно найти пункт «Добавить URL» или «Открыть сетевой адрес».
 
 > **Важно:** Сторонние программы и значки использовать не получится, так как плейлист привязан к `https://iptvx.one/EPG`, где уже имеются и значки, и программа с описанием просматриваемого материала.
@@ -39,16 +24,6 @@
 
 ## Плейлисты
 
-### Тестовый
-
-```
-https://smolnp.github.io/IPTVru//IPTVххх.m3u
-```
-
-- Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVххх.m3u`.
-
-Редактируется сообществом. Именно в этот плейлист вы можете добавить свой канал, даже без ссылки (главное: имя и атрибуты) и как только скрипты найдут на этот канал рабочую ссылку он, со временем появится во всех плейлистах.
-
 ### Основной
 
 ```
@@ -62,20 +37,20 @@ https://raw.githubusercontent.com/NelikKKL/IPTVru/refs/heads/gh-pages/IPTVru.m3u
 ### Стабильный
 
 ```
-https://smolnp.github.io/IPTVru//IPTVstable.m3u8
+https://nelikkkl.github.io/IPTVru//IPTVstable.m3u8
 ```
 
-- Для всех плееров:`https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8`.
+- Для всех плееров:`https://raw.githubusercontent.com/NelikKKL/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8`.
 
 Плейлист формируется после удаления нестабильных и / или неработающих потоков из основного плейлиста. Используется облегченный EPG файл (значки и программа). Пулреквесты не принимаются.
 
 ### Мировой
 
 ```
-https://smolnp.github.io/IPTVru//IPTVmir.m3u8
+https://nelikkkl.github.io/IPTVru//IPTVmir.m3u8
 ```
 
-- Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVmir.m3u8`.
+- Для всех плееров: `https://raw.githubusercontent.com/nelikkkl/IPTVru/refs/heads/gh-pages/IPTVmir.m3u8`.
 
 Включает в себя зарубежные каналы (никем не поддерживается, обновляется скриптами).
 
